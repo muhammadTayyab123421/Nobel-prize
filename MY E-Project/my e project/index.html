@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> NobelJourney</title>
+  <link rel="icon" type="image/png" href="logo.2.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#" style="font-size: 1.8rem; letter-spacing: 1px; color: #f8d26a;">
+      <!-- Lastoria --> NobelJourney
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="" style="color: #ffffff;text-decoration: none; font-weight: 600;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About-us" style="color: #ffffff;text-decoration: none;">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#EVENTS" data-bs-toggle="dropdown" style="color: #ffffff;text-decoration: none;">Events</a>
+          <ul class="dropdown-menu" style="background-color: #1a1a1a; border: 1px solid #f8d26a;">
+            <li><a class="dropdown-item" href="Events" style="color: #f8d26a;text-decoration: none;">Events </a></li>
+            <li><a class="dropdown-item" href="Categories" style="color: #f8d26a;text-decoration: none;">Categories</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact Us" style="color: #ffffff;text-decoration: none;">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- Carousel -->
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="first pic.webp" class="d-block w-100" alt="slide" style="height: 500px; object-fit: cover; filter: brightness(60%);" />
+
+      <!-- Elegant overlay gradient -->
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+                  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7));"></div>
+
+      <div class="carousel-caption text-start" style="bottom: 120px;">
+        <h1 style="font-size: 3.2rem; font-weight: 800; color: #f8d26a; text-shadow: 0 0 25px rgba(0,0,0,0.9);">
+          The Nobel Prize
+        </h1>
+        <p style="font-size: 1.0rem; color: #f8f9fa; max-width: 700px; line-height: 1.6; margin-top: 15px;
+                  text-shadow: 0 0 15px rgba(0,0,0,0.7); margin-bottom: 70px;">
+          Celebrating the brilliance of minds that shaped our world — honoring discoveries, literature, <br> and peace that inspire humanity.
+        </p>
+        <a href="#categories" class="btn btn-warning btn-lg fw-bold" 
+           style="border-radius: 30px; color: #000; padding: 10px 35px; box-shadow: 0 0 15px rgba(0,0,0,0.5); text-decoration: none;">
+           Explore the Legacy
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<div class="container text-center mb-5">
+  <div data-aos="zoom-in">
+    <h1 class="text-start fw-bold"><br> <br>Honoring the World's Brightest Minds</h1>
+    <p class="text-start text-secondary mb-0">
+      Celebrating Nobel laureates whose discoveries and dedication have changed the world.
+    </p>
+  </div>
+</div>
+<div class="container my-5">
+  <div class="row align-items-center">
+    <!-- Left Image -->
+    <div class="col-md-6" data-aos="fade-right">
+      <img src="222222222.webp" class="img-fluid rounded-4 shadow" 
+           alt="Nobel" style="height: 380px; object-fit: cover;">
+    </div>
+    <!-- Right Image + Text -->
+    <div class="col-md-6" data-aos="fade-left">
+      <img src="33333.jpeg" class="img-fluid rounded-4 shadow mb-3" 
+           alt="Nobel" style="height: 250px; object-fit: cover;">
+      <div class=" text-white p-3 rounded-4">
+        <p class="mb-0">
+          The Nobel Prize honors those who have advanced humanity through <br>
+          science, literature, and peace.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<!-- Nobel Prize Features Section -->
+<div class="container py-5">
+  <div class="row align-items-stretch" style="min-height: 400px;">
+    <!-- Left Image -->
+    <div class="col-md-3 p-0">
+      <div data-aos="flip-left" class="h-100">
+        <img src="4444444.jpg"
+             class="img-fluid w-100 h-100 rounded-start-4"
+             style="object-fit: cover; object-position: center;"
+             alt="Nobel Medal" />
+      </div>
+    </div>
+    <!-- Center Black Box -->
+    <div class="col-md-6 bg-dark text-light p-4 d-flex flex-column justify-content-center">
+      <div class="mb-3 border-bottom pb-3">
+        <h5 class="fw-semibold">Celebrating Excellence</h5>
+        <small class="text-secondary">
+          Honoring individuals whose work has made a lasting impact in Physics, Chemistry, Medicine, Literature, Peace, and Economic Sciences.
+        </small>
+      </div>
+      <div class="mb-3 border-bottom pb-3">
+        <h5 class="fw-semibold">Global Recognition</h5>
+        <small class="text-secondary">
+          Since 1901, the Nobel Prize has inspired generations to pursue innovation, peace, and humanity’s advancement.
+        </small>
+      </div>
+      <div>
+        <h5 class="fw-semibold">Legacy of Alfred Nobel</h5>
+        <small class="text-secondary">
+          Founded in memory of Alfred Nobel, the inventor of dynamite, who dedicated his fortune to rewarding the greatest benefits to mankind.
+        </small>
+      </div>
+    </div>
+    <!-- Right Image -->
+    <div class="col-md-3 p-0">
+      <div data-aos="flip-left" class="h-100">
+        <img src="555555555.jpeg"
+             class="img-fluid w-100 h-100 rounded-end-4"
+             style="object-fit: cover; object-position: center;"
+             alt="Alfred Nobel" />
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+ <!-- Dua Section Start -->
+<br>
+<br>
+  <!-- header start  -->
+<header class="header-img" id="About-us">
+  <div class="text">
+  <h1>About Us </h1>
+  <div class="under-line"></div>
+  </div>
+</header>
+
+  <!-- header  end -->
+<!-- button start -->
+   <div class="two">
+      <div>
+        <h1>The man behind the prize – Alfred Nobel</h1>
+        <p>For the greatest benefit to humankind </p>
+      </div>
+      <button class="see-more">Learn More</button>
+    </div>
+    <div class="under-line">
+</div>
+<!-- button end -->
+<!-- grid content start -->
+     <div class="grid">
+      <img src="09797613c03754940d4de54a80742317.jpg" alt="">
+      <div class="img">
+        <div class="one">
+          <br>
+        <h1>Quick facts </h1>
+        <br>
+        <ul>
+          <li>Born: 21 October 1833</li><br>
+          <li>Died: 10 December 1896</li><br>
+          <li>Known for: inventing dynamite and holder of 355 patents</li><br>
+          <li>Professions: chemist, inventor, engineer, entrepreneur, businessman, author</li><br>
+          <li>Will: left 31 million Swedish kronor (SEK) to fund the prizes</li><br>
+        </ul>
+        </div>
+      </div>
+    </div>
+<!-- grid content end -->
+<!-- cards start -->
+ <div class="row row-cols-1 row-cols-md-3 g-4 ">
+  <div class="col">
+    <div class="card h-100">
+      <img src="Nobel-Peace-Prize-winners-through-the-years_4_1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">Nobel Peace Prize laureates, Russian journalist Dmitry Muratov (R) and Filipino journalist Maria Ressa, attend the Nobel Peace Prize Award Ceremony at City Hall in Oslo,
+</p>        <p> Norway, on December 10, 2021. The pair were honored for their efforts to safeguard freedom of expression. File Photo by Rune Hellestad/ UPI</p>
+      </div>
+   
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="second pic.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">Recipient of the Nobel Peace Prize, Ethiopian Prime Minister Abiy Ahmed Ali, attends the Nobel Peace Prize ceremony at City Hall in Oslo, Norway, on December 10, 2019.</p>
+            <p>Ali was honored for his efforts to achieve peace and reconciliation with Eritrea. File Photo by Rune Hellestad/UPI</p>
+      </div>
+    
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="am-tu-showing-medal-1067-landscape-large.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">President Juan Manuel Santos of Colombia speaks at a joint press conference with President Donald Trump in the East Room at the White House in Washington on May 18, 2017. </p>
+         <p>Santos was honored for his efforts to end his country's long civil war. File Photo by Kevin Dietsch/UPI</p>
+
+    </div>
+    
+    </div>
+  </div>
+</div>
+<!-- cards end -->
+<div class="container">
+  <div class="slider">
+    <!-- Repeat same images twice for smooth infinite effect -->
+    <img src="09797613c03754940d4de54a80742317.jpg">
+    <img src="752bed36f061ff06c5b6fd6970d1d6fb.jpg">
+    <img src="99d8c7f74cdfd6e3d9e325e285b37188.jpg">
+    <img src="am-tu-showing-medal-1067-landscape-large.jpg">
+    <img src="Nobel Prize Day.jpg">
+    <img src="Nobel-Peace-Prize-winners-through-the-years_4_1.jpg">
+    <img src="president-jimmy-carter-nobel.jpg">
+    <img src="191009112225-01-john-goodenough-file.jpg">
+    <img src="AP18203203270-e1674712947876.jpg">
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+ <!-- Dua Section End -->
+
+<!-- Rukhsar Section Start  -->
+
+ <!-- Title -->
+  <div class="text-center1" id="Categories">
+    <h1 style="font-weight: bold;">Prize Categories</h1>
+    <h4>1901–2025</h4>
+  </div>
+<br>
+<br>
+  <!-- Cards -->
+  <div class="row1">
+    <div class="card2">
+      <img src="laser-physics-2018-54578-landscape-x-large.jpg" alt="Physics">
+      <div class="card-body1">
+        <h5 class="card-title1" style="color: #f8f9fa;">Physics</h5>
+        <p class="card-text1" style="color: #f8f9fa;">Exploring the laws of nature and uncovering the mysteries of the universe.</p>
+      </div>
+    </div>
+
+    <div class="card2">
+      <img src="136402-landscape-x-large.jpg" alt="Chemistry">
+      <div class="card-body1">
+        <h5 class="card-title1" style="color: #f8f9fa;">Chemistry</h5>
+        <p class="card-text1" style="color: #f8f9fa;">Advancing our understanding of materials, molecules, and life itself.</p>
+      </div>
+    </div>
+
+    <div class="card2">
+      <img src="GettyImages-185326791-1024x676.jpg" alt="Medicine">
+      <div class="card-body1">
+        <h5 class="card-title1" style="color: #f8f9fa;">Medicine</h5>
+        <p class="card-text1" style="color: #f8f9fa;">Recognizing breakthroughs that improve health and save lives.</p>
+      </div>
+    </div>
+
+    <div class="card2">
+      <img src="gurnah-books.jpg" alt="Literature">
+      <div class="card-body1">
+        <h5 class="card-title1" style="color: #f8f9fa;">Literature</h5>
+        <p class="card-text1" style="color: #f8f9fa;">Honoring creative minds that inspire through words and storytelling.</p>
+      </div>
+    </div>
+
+    <div class="card2">
+      <img src="fair.jpg" alt="Peace">
+      <div class="card-body1">
+        <h5 class="card-title1" style="color: #f8f9fa;">Peace</h5>
+        <p class="card-text1" style="color: #f8f9fa;">Celebrating efforts to resolve conflicts and promote harmony globally.</p>
+      </div>
+    </div>
+
+    <div class="card2">
+      <img src="52378-landscape-x-large.jpg" alt="Economics">
+      <div class="card-body1">
+        <h5 class="card-title1" style="color: #f8f9fa;">Economic Sciences</h5>
+        <p class="card-text1" style="color: #f8f9fa;">Acknowledging contributions that advance understanding of global economies.</p>
+      </div>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <!-- Q&A Section -->
+  <section class="qa-section1">
+    <div class="qa-text">
+      <h1 style="padding-left: 14%;">Why is the Nobel Peace Prize awarded in Norway?</h1>
+      <p>Do you want to know more about the Nobel Prize and the Nobel Prize laureates?
+         Find answers to the most commonly asked questions in the FAQ.</p>
+    </div>
+<br>
+<br>
+<br> 
+<br>
+    <div class="qa-image1">
+      <img src="1.jpg" alt="Nobel Peace Prize Medal">
+      <p class="credit">© Nobel Prize Outreach</p>
+    </div>
+  </section>
+  
+<!-- Rukhsar Section End  -->
+
+<!-- Abeeha Section Start  -->
+ <br>
+ <br>
+ <br>
+
+   <section class="events-section" id="Events">
+    <h1 class="title">EVENTS & MUSEUMS</h1>
+    <div class="divider"></div>
+<br>
+    <div class="content">
+      <div class="left">
+        <h2>Celebrating excellence around the world</h2>
+        <p>
+          Our public events, held across the world, celebrate and share achievements awarded the Nobel Prize in science, literature and peace.
+        </p>
+        <p>
+          Our museums, situated in Stockholm and Oslo, invite visitors to engage with the Nobel Prize and its values through a world-class array of exhibitions, educational programmes, lectures and dialogues.
+        </p>
+        <p>
+          We create contexts that inspire people to think, act and challenge each other, and encourage cross disciplinary dialogue in issues that are crucial to our world and our future. We look forward to seeing you there.
+        </p>
+      </div>
+
+  </section>
+<!---2nd page end-->
+
+<!---3rd page start-->
+
+    <section class="museum">
+      <br>
+      <br>
+        <div class="header">
+            <h1>Nobel Prize Museum</h1>
+            <a href="#" class="read-more">Read more</a>
+        </div>
+        <div class="grid">
+            <div class="card" style="background-image: url('download.jpg');">
+                <a href="#">Events</a>
+            </div>
+            <div class="card" style="background-image: url('download\ \(1\).jpg');">
+                <a href="#">Exhibitions</a>
+            </div>
+            <div class="card" style="background-image: url('download\ \(2\).jpg');">
+                <a href="#">About the Nobel Prize Museum</a>
+            </div>
+            <div class="card" style="background-image: url('images.jpg');">
+                <a href="#">Plan your visit</a>
+            </div>
+            <div class="card" style="background-image: url('save\ theeeeeeeeee.avif');">
+                <a href="#">These things changed the world</a>
+            </div>
+            <div class="card" style="background-image: url('lastttttttt.jpeg');">
+                <a href="#">About the Nobel PIace center</a>
+            </div>
+        </div>
+    </section>
+<!-- Abeeha Section End  -->
+
+<!-- Aysha Section Start -->
+   <!-- Contact  -->
+<section class="contact-section" id="Contact Us">
+  <h2>Get in Touch</h2>
+  <p>Reach out to the Nobel Prize Information Team. Fill out the form and we’ll get back to you shortly.</p>
+
+  <form>
+    <input type="text" placeholder="Your Full Name" required>
+    <input type="email" placeholder="Your Email Address" required>
+    <textarea rows="6" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+  <!-- Map -->
+  <section class="map-section">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21304.510761956682!2d18.055904!3d59.327629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d5f2f0b8dcb%3A0x502b3e6f5f0f72e9!2sStockholm%2C%20Sweden!5e0!3m2!1sen!2s!4v1716598451210!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">Back to Top</button>
+  </section>
+<section class="insta-section">
+  <h2>Instagram Highlights</h2>
+  <p>Discover inspiring Nobel moments shared across the globe.</p>
+
+  <div class="insta-gallery">
+   <div class="insta-item"><img src="icon 4.png" alt="icon"></div>
+    <div class="insta-item"><img src="icon 2.jpg" alt="icon"></div>
+    <div class="insta-item"><img src="icvon 3.png" alt="icon"></div>
+    
+
+  </div>
+</section>
+
+<!-- Aysha Section End -->
+      <section class="text-white py-5" style="background: url('bg\ footer.jpg') center/cover no-repeat; height: 447px;">
+  <div class="container py-5 position-relative">
+    <div class="row align-items-center">
+      <!-- Left Text -->
+      <div class="col-lg-7">
+        <h2 class="fw-bold mb-3" style="color: rgb(0, 0, 0); ">Sign Up For More Update</h2>
+<p class="mb-5" style="max-width: 500px; color: black; margin-bottom: 410px;">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Ut elit tellus, luctus  nec ullamcorper mattis, pulvinar dapibus leo.
+</p>
+
+<form class="d-flex flex-wrap gap-2">
+          <input type="email" class="form-control rounded-pill bg-transparent text-white border-light" placeholder="Email" style="max-width: 260px;">
+          <button class="btn btn-light rounded-pill " style="width: 260px;">Subscribe Now</button>
+        </form>
+      </div>
+      <!-- Right Image -->
+      <div class="col-lg-5 text-center mt-5 mt-lg-0">
+<img src="footer.png" alt="Statue"
+     class="img-fluid rounded-4 position-relative"
+     style="height: 500px; object-fit: cover; margin-top: 10px; margin-bottom: 0px;
+      margin-left: 80px;">
+
+    </div>
+  </div>
+</section>
+   <div class="border-secondary mt-4"></div>
+    <div class="text-center small text-secondary">
+      © 2025 Nobel Prize Foundation. All rights reserved.
+    </div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+</html>
+ 
